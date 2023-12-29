@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shiritori Game</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Welcome to Shiritori</h1>
+      </div>
+      <div class="column1">
+        <img src="japanese-crane.jpeg" id="crane" alt="Japanese Crane" />
+        <ul id="words-list"></ul>
+        <p id="countdown"></p>
+        <div id="player-entry">
+          <input type="text" name="new-word" id="new-word-input" />
+          <div class="button-layout">
+            <div id="start-game">
+              <button id="start-game-button">Start Game</button>
+            </div>
+            <div id="add-word">
+              <button id="add-word-button">Add Word</button>
+            </div>
+            <div id="reset-game">
+              <button id="reset-game-button">Reset Game</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column2">
+        <h3>What is shiritori?</h3>
+        <p class="text-edit">
+          Shiritori (しりとり; 尻取り) is a Japanese word game in which the
+          players are required to say a word which begins with the final kana
+          (in this case, letter) of the previous word. No distinction is made
+          between hiragana, katakana, and kanji. "Shiritori" literally means
+          "taking the end" or "taking the rear".
+        </p>
+
+        <p class="text-edit">
+          The game begins when you put in your first word. From there, a timer
+          will start. Try to see how many words you can name.
+        </p>
+
+        <p>Keep in mind:</p>
+        <ul>
+          <li>You must use a word.</li>
+          <li>You cannot repeat the same word twice.</li>
+          <li>
+            If you use repeat the same word or use a word starting with the
+            wrong letter, the game ends.
+          </li>
+        </ul>
+        <p>Do your best to get a high score. Good luck and have fun.</p>
+      </div>
+    </div>
+
+    <!-- home button -->
+    <button id="scroll-btn-home"><a href="https://bathant702nv.netlify.app/">[H]</a></button>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
